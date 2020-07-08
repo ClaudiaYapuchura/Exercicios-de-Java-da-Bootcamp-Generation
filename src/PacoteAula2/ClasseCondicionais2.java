@@ -15,6 +15,9 @@ public class ClasseCondicionais2 {
 		System.out.println("Digite o terceiro número: ");
 		num3 = entrada.nextInt();
 		
-		
+		if(num1>num2 && num2>num3)
+		{
+			
+		}
 	}
 }

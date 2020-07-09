@@ -6,7 +6,7 @@ public class ClasseCondicionais2 {
 	public static void main(String args[])
 	{
 		Scanner entrada = new Scanner(System.in);
-		int num1,num2,num3;
+		int num1,num2,num3,primeiro,segundo,terceiro;
 		
 		System.out.println("Digite o primeiro número: ");
 		num1 = entrada.nextInt();
@@ -17,7 +17,7 @@ public class ClasseCondicionais2 {
 		
 		if(num1>num2 && num2>num3)
 		{
-			
+			primeiro = num1; 
 		}
 	}
 }

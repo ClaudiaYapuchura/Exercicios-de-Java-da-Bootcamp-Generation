@@ -6,7 +6,7 @@ public class Revisao1 {
 	public static void main(String[] args)
 	{
 		Scanner entrada = new Scanner(System.in);
-		double precoEtiqueta,precoFinal=0;
+		double precoEtiqueta,precoFinal;
 		
 		System.out.println("\nDigite o preço de etiqueta: ");
 		precoEtiqueta = entrada.nextInt();
